@@ -7,4 +7,5 @@ Este repositorio contiene la resolución de las tareas del curso de Docker & Kub
 
 ## Índice de Tareas
 
-- [Clase 1: Introducción a Containers y Docker](clase1/)
+1. [Clase 1: Introducción a Containers y Docker](clase1/)
+1. [Clase 2: dockerfiles](clase2/)
