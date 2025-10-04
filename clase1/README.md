@@ -7,10 +7,10 @@
  docker run -d -p 3306:3306 --name mi-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
 ```
 ---
--p mapear el purto
--e  variables de entorno , especificado en la documentancion de la imagem
--name  nombre del contenedeor a crearse
--d ejecitar por debajo
+- --p mapear el purto
+- --e  variables de entorno , especificado en la documentancion de la imagem
+- --name  nombre del contenedeor a crearse
+- -d ejecitar por debajo
 
 3. docker ps -a
 ```bash
@@ -49,4 +49,6 @@ docker ps -a
 ![alt text](screenshots/image-7.png)
 
 ## Conslusiones
- COnsulta siempre la docuemntacion de la imagen para revisar las configuraciones variables de entorno  puertos exposuestos.
+Consultar siempre la documentacion de la imagen para revisar las configuraciones:
+  - variables de entorno  
+  - puertos exposuestos.
