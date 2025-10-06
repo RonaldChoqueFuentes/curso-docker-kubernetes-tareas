@@ -36,3 +36,10 @@ docker history python-flask-api:1.0
 4. docker ignore 
 [.dockerignore](./labs/python-flask-cloud-run-main/python-flask-cloud-run-main/.dockerignore)
 
+
+5. Command to get into the container
+
+```bash
+ docker run -it -p 8000:8080 --name my_flask_app python-flask-api:1.0 bash
+```
+

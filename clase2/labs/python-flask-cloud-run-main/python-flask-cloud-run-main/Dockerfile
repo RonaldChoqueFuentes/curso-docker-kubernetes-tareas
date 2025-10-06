@@ -23,7 +23,6 @@ COPY --from=build /usr/local/lib/python3.11/site-packages /usr/local/lib/python3
 # Copy your Flask application code
 COPY . .
 
-# Variables de entorno por defecto
 ENV FLASK_APP=main.py
 ENV FLASK_ENV=production
 ENV GUNICORN_BIND=0.0.0.0:8080
