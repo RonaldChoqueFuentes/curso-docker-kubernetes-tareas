@@ -1,0 +1,38 @@
+# Python-specific exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and Editor specific exclusions
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+
+# Version control exclusions
+.git/
+.gitignore
+.gitmodules
+.gitattributes
+
+# Environment variables and sensitive files
+.env
+.env.*
+.flaskenv
+.aws/
+.ssh/
+
+# Docker specific exclusions (if not needed in the build context)
+Dockerfile

@@ -1,1 +1,0 @@
-# curso-docker-kubernetes-tareas
